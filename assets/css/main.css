@@ -4587,42 +4587,58 @@
 		}
 
 
+		/* MODIFICATIONS THOMAS */
+		 .photo_profil img {
+		    margin-left: 30px !important;
+		    margin-top: 30px !important;
+		    border: 2px solid;
+		    border-radius: 25px;
+		}
 
+		.tableau_commentaires {
+			width: 60%;
+			margin-left: 80px;
+			margin-top: 30px !important;
+			margin-bottom: 30px !important;
+			padding-left: 5px;
+			padding-right: 5px;
+			border : 3px solid;
 
+		}
 
+			.tableau_commentaires h2 {
+				font-style: italic;
+				padding-left: 10px;
+			}
 
+		.profil_utilisateurs > section.spotlight{
+			align-items: inherit;
+		}
 
+		.info_utilisateurs {
+			height: 560px;
+			border: 2px solid;
+			margin-left: 30px !important;
+			text-decoration: none;
+		}
 
+		.info_utilisateurs h3 {
+			margin-top: 30px;
+			padding: 6px;
+		}
 
+		.info_utilisateurs ul {
+			list-style-type: none;
+		}
 
+		.info_utilisateurs li {
+			letter-spacing: 0.035em;
+		}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		.info_utilisateurs li span {
+			font-weight: bold;
+			text-decoration: underline;
+		}
 
 
 
