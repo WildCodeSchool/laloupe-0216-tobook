@@ -235,6 +235,7 @@
 		width: 33.3333333333%;
 		clear: none;
 		margin-left: 0;
+		display: inline;
 	}
 
 	.\33 u, .\33 u\24 {
@@ -1661,7 +1662,6 @@
 			background-color: #444;
 		}
 
-
 	blockquote {
 		border-left-color: rgba(144, 144, 144, 0.3);
 	}
@@ -2570,8 +2570,6 @@
 		table tbody tr:nth-child(2n + 1) {
 			background-color: rgba(144, 144, 144, 0.1);
 		}
-
-
 
 	table th {
 		color: #444;
@@ -4212,11 +4210,7 @@
 
 		}
 
-	/*
-		Tactile by Pixelarity
-		pixelarity.com @pixelarity
-		License: pixelarity.com/license
-	*/
+	
 
 /* Footer */
 
@@ -4593,6 +4587,106 @@
 		}
 
 
+		/* MODIFICATIONS THOMAS */
+		 .photo_profil img {
+		    margin-left: 30px !important;
+		    margin-top: 30px !important;
+		    border: 2px solid;
+		    border-radius: 25px;
+		}
+
+		.tableau_commentaires {
+			width: 100%;
+			margin-left: 80px;
+			margin-top: 30px !important;
+			margin-bottom: 30px !important;
+			padding-left: 5px;
+			padding-right: 5px;
+			border : 3px solid;
+
+		}
+
+			.tableau_commentaires h2 {
+				font-style: italic;
+				padding-left: 10px;
+			}
+
+		.profil_utilisateurs > section.spotlight{
+			align-items: inherit;
+		}
+
+		.info_utilisateurs {
+			height: 560px;
+			border: 2px solid;
+			margin-left: 30px !important;
+			text-decoration: none;
+		}
+
+		.info_utilisateurs h3 {
+			margin-top: 30px;
+			padding: 6px;
+		}
+
+		.info_utilisateurs ul {
+			list-style-type: none;
+		}
+
+		.info_utilisateurs li {
+			letter-spacing: 0.035em;
+		}
+
+		.info_utilisateurs li span {
+			font-weight: bold;
+			text-decoration: underline;
+		}
+
+
+
+
+
+#map {
+	width:70%;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+.g-map h2 p {
+	text-align: center;
+}
+#class h1 p {
+	background-color: #66B32F;
+	border-radius: 5px;
+	border: 1px solid;
+	border-color: #fff;
+	padding: 10px;
+
+}
+.resultats {
+	margin-top: 30px;
+	text-align: center;
+}
+.classement {
+	display: inline-block;
+	width: 13%;
+}
+.critere1 {
+	display: inline-block;
+	width: 13%;
+}
+.critere2 {
+	display: inline-block;
+	width: 13%;
+}
+.critere3 {
+	display: inline-block;
+	width: 13%;
+}
+.box .liste_hotel {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
 
 
 /********ninon**********/
@@ -4612,4 +4706,3 @@
         color: rgba(102, 179, 47, 1);
     }
 /********************/
-
