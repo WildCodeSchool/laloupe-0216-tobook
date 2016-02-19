@@ -4628,10 +4628,13 @@
 
 
 
-		#map {
+#map {
 	width:70%;
-	margin-left: 200px;
-	margin-right: 200px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.g-map h2 p {
+	text-align: center;
 }
 #class h1 p {
 	background-color: #66B32F;
@@ -4662,7 +4665,7 @@
 	width: 13%;
 }
 .box {
+	text-align: center;
 	margin-left: 100px;
 	margin-right: 100px;
-	text-align: center;
 }
