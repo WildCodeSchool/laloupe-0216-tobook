@@ -4685,3 +4685,24 @@
 	margin-left: 100px;
 	margin-right: 100px;
 }
+
+
+
+
+/********ninon**********/
+        table tbody tr:first-child {
+			background-color: rgba(102, 179, 47, 0.5);
+            font-weight: bold;
+        }
+/******************/
+/********ninon**********/
+        table td:nth-child(2), 
+        table th:nth-child(2) {
+            text-align: right
+        }
+/******************/
+/*********ninon***********/
+    .titre-fiche {
+        color: rgba(102, 179, 47, 1);
+    }
+/********************/
