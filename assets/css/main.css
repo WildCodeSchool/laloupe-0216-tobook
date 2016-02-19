@@ -4644,10 +4644,13 @@
 
 
 
-		#map {
+#map {
 	width:70%;
-	margin-left: 200px;
-	margin-right: 200px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.g-map h2 p {
+	text-align: center;
 }
 #class h1 p {
 	background-color: #66B32F;
@@ -4678,7 +4681,28 @@
 	width: 13%;
 }
 .box {
+	text-align: center;
 	margin-left: 100px;
 	margin-right: 100px;
-	text-align: center;
 }
+
+
+
+
+/********ninon**********/
+        table tbody tr:first-child {
+			background-color: rgba(102, 179, 47, 0.5);
+            font-weight: bold;
+        }
+/******************/
+/********ninon**********/
+        table td:nth-child(2), 
+        table th:nth-child(2) {
+            text-align: right
+        }
+/******************/
+/*********ninon***********/
+    .titre-fiche {
+        color: rgba(102, 179, 47, 1);
+    }
+/********************/
