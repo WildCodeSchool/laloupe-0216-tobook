@@ -1,271 +1,268 @@
 <!DOCTYPE HTML>
 <!--
-Tactile by Pixelarity
-pixelarity.com @pixelarity
-License: pixelarity.com/license
+	Tactile by Pixelarity
+	pixelarity.com @pixelarity
+	License: pixelarity.com/license
 -->
 <html>
-    <head>
-        <title>Résultats || Tobook.club</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-        <link rel="stylesheet" href="assets/css/main.css" />
-        <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-        <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-        <link rel="icon" type="image/png" href="assets/img/logo-tobook.png" />
-
-    </head>
-    <body>
-        <!-- Header -->
-        <header id="header">
-            <h1><a href="index.html">TOBOOK<span><strong>.</strong>club</span></a></h1>
-            <a href="#"><span>S'inscrire</span></a>
-            <a href="#"><span>Se connecter</span></a>
-            <a href="#menu">Menu</a>
-        </header>
-        <!-- Menu -->
-        <nav id="menu">
-            <ul class="links">
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="resultats.html">Recherche</a></li>
-                <li><a href="page_utilisateurs.html">Mon profil</a></li>
-                <li><a href="elements.html">Contact</a></li>
-            </ul>
-            <ul class="actions vertical">
-                <li><a href="#" class="button fit special">S'inscrire</a></li>
-                <li><a href="#" class="button fit">Se connecter</a></li>
-            </ul>
-        </nav>
-        <!-- Banner -->
-        <section class="recherche">
-            <div class="inner">
-                <div class="recherche_p">
-                    <form method="post" action="#">
-                        <div class="row uniform">
-                            <div class="9u 12u$(small)">
-                                <input type="text" name="query" id="query" value="" placeholder="Query" />
-                            </div>
-                            <div class="3u$ 12u$(small)">
-                                <input type="submit" value="recherche" class="fit" />
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </section>
-        <!-- Google Map -->
-        <section class="g-map">
-            <div class="inner">
-                <h2><p>Il y a 2 Hôtels à la Loupe !</p></h2>
-                <img id="map" src="assets/img/googlemaps.png"></img>
-            </div>
-        </section>
-    <!-- Fin Google Map -->
-    <!-- Menu resultats -->
-    <section class="resultats">
-        <div id="class">
-            <h1 class="classement">
-                <p>Classer par:</p>
-            </h1>
-            <form method="post" action="traitement.php" class="critere1">
-                <div class="4u$">
-                    <div class="select-wrapper">
-                        <select name="category" id="category">
-                            <option value="">Prix</option>
-                            <option value="1">#</option>
-                            <option value="1">#</option>
-                            <option value="1">#</option>
-                            <option value="1">#</option>
-                            <option value="1">#</option>
-                        </select>
-                    </div>
-                </div>
-            </form>
-            <form method="post" action="traitement.php" class="critere2">
-                <div class="4u$"></div>
-                <div class="select-wrapper">
-                    <select name="category" id="category">
-                        <option value="">Étoile</option>
-                        <option value="1">#</option>
-                        <option value="1">#</option>
-                        <option value="1">#</option>
-                        <option value="1">#</option>
-                        <option value="1">#</option>
-                    </select>
-                </div>
-            </form>						
-            <form method="post" action="traitement.php" class="critere3">
-                <div class="select-wrapper">
-                    <select name="category" id="category">
-                        <option value="">Notes</option>
-                        <option value="1">#</option>
-                        <option value="1">#</option>
-                        <option value="1">#</option>
-                        <option value="1">#</option>
-                        <option value="1">#</option>
-                    </select>
-                </div>
-            </form>
-        </div>
-    </section>
-    <!-- Fin menu resultats -->
-    <!-- Resultats -->
-    <section class="box">
-        <div class="liste_hotel">
-            <h1>
-                <a href="hotel.html">Hotel N°1</a>
-            </h1>
-            <p><strong>La Loupe</strong>( 0.5km du centre ville)<br />Court trajet jusqu'à la gare principale<br/>
-                <br />
-                l'hotel est ... ..........................................................................<br />
-                ..................................................................................................................<br />
-                ..................................................................................................................<br />
-                .....................................................................................................<br />
-            </p>
-        </div>	
-    </section>
-    <section class="box">
-        <div class="liste_hotel">
-            <h1>Hotel n°2</h1>
-            <p><strong>La Loupe</strong>( 0.5km du centre ville)<br />Court trajet jusqu'à la gare principale<br/>
-                <br />
-                l'hotel est ... .................................<br />
-                .........................................................................<br />
-                .........................................................................<br />
-                ...................................................................<br />
-            </p>
-        </div>
-    </section>
-    <section class="box">
-        <div class="liste_hotel">
-            <h1>Hotel n°3</h1>
-            <p><strong>La Loupe</strong>( 0.5km du centre ville)<br />Court trajet jusqu'à la gare principale<br/>
-                <br />
-                l'hotel est ... ..................................<br />
-                ..........................................................................<br />
-                ..........................................................................<br />
-                ...................................................................<br />
-            </p>
-        </div>
-    </section>
-    <section class="box">
-        <div class="liste_hotel">
-            <h1>Hotel n°4</h1>
-            <p><strong>La Loupe</strong>( 0.5km du centre ville)<br />Court trajet jusqu'à la gare principale<br/>
-                <br />
-                l'hotel est ... .....................................<br />
-                .............................................................................<br />
-                .............................................................................<br />
-                ...................................................................<br />
-            </p>
-        </div>
-    </section>
-    <section class="box">
-        <div class="liste_hotel">
-            <h1>Hotel N°5</h1>
-            <p><strong>La Loupe</strong>( 0.5km du centre ville)<br />
-                Court trajet jusqu'à la gare principale<br/>
-                <br />
-                l'hotel est ... ..........................................................................<br />
-                ..................................................................................................<br />
-                .....................................................................................................<br />
-                ........................................................................................<br />
-            </p>
-        </div>
-    </section>
-    <section class="box">
-        <div class="liste_hotel">
-            <h1>Hotel N°6</h1>
-            <p><strong>La Loupe</strong>( 0.5km du centre ville)<br />
-                Court trajet jusqu'à la gare principale<br/>
-                <br />
-                l'hotel est ... ..........................................................................<br />
-                ..................................................................................................................<br />
-                ..................................................................................................................<br />
-                .....................................................................................................<br />
-            </p>
-        </div>
-    </section>
-    <section class="box">
-        <div class="liste_hotel">
-            <h1>Hotel n°7</h1>
-            <p><strong>La Loupe</strong>( 0.5km du centre ville)<br />
-                Court trajet jusqu'à la gare principale<br/>
-                <br />
-                l'hotel est ... ..........................................................................<br />
-                ..................................................................................................................<br />
-                ..................................................................................................................<br />
-                .....................................................................................................<br />
-            </p>
-        </div>
-    </section>
-    <section class="box">
-        <div class="liste_hotel">
-            <h1>Hotel n°8</h1>
-            <p><strong>La Loupe</strong>( 0.5km du centre ville)<br />
-                Court trajet jusqu'à la gare principale<br/>
-                <br />
-                l'hotel est ... ..........................................................................<br />
-                ..................................................................................................................<br />
-                ..................................................................................................................<br />
-                .....................................................................................................<br />
-            </p>
-        </div>
-    </section>
-    <section class="box">
-        <div class="liste_hotel">
-            <h1>Hotel n°9</h1>
-            <p><strong>La Loupe</strong>( 0.5km du centre ville)<br />
-                Court trajet jusqu'à la gare principale<br/>
-                <br />
-                l'hotel est ... ..........................................................................<br />
-                ..................................................................................................................<br />
-                ..................................................................................................................<br />
-                .....................................................................................................<br />
-            </p>
-        </div>
-    </section>
-    <section class="box liste_hotel">
-        <div class="liste_hotel">
-            <h1>Hotel n°10</h1>
-            <p><strong>La Loupe</strong>( 0.5km du centre ville)<br />
-                Court trajet jusqu'à la gare principale<br/>
-                <br />
-                l'hotel est ... ..........................................................................<br />
-                ..................................................................................................................<br />
-                ..................................................................................................................<br />
-                .....................................................................................................<br />
-            </p>
-        </div>
-    </section>
-    <!-- Fin resultats -->
-    <!-- Footer -->
-    <footer id="footer">
-        <div class="inner">
-            <section class="contact-info">
-                <h4 class="major">Nous contacter</h4>
-                <ul class="contact">
-                    <li class="fa-phone">02.54.80.27.00</li>
-                </ul>
-                <ul class="contact">
-                    <li class="fa-envelope"><a href="#">laurent.ciarka@gmail.com</a></li>
-                </ul>
-                <ul class="contact">
-                    <li class="fa-home">ToBook France<br />8, boulevard de Tremault - 41 100 Vendôme</li>
-                </ul>
-            </section>
-        </div>
-        <div class="copyright">
-            <p>&copy; Untitled Corp. Tout droits réservés | Contacts | CGU | Tactile <span>par Pixelarity | Intégration Web WCS</p>
-        </div>
-    </footer>
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/skel.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-    <script src="assets/js/main.js"></script>
-    </body>
-</html>
+	<head>
+		<title>Untitled</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+		<!-- Header -->
+			<header id="header">
+				<h1><a href="index.html">TOBOOK<span><strong>.</strong>club</span></a></h1>
+				<a href="#"><span>S'inscrire</span></a>
+				<a href="#"><span>Se connecter</span></a>
+				<a href="#menu">Menu</a>
+			</header>
+		<!-- Menu -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Accueil</a></li>
+					<li><a href="generic.html">Recherche</a></li>
+					<li><a href="elements.html">Contact</a></li>
+				</ul>
+				<ul class="actions vertical">
+					<li><a href="#" class="button fit special">S'inscrire</a></li>
+					<li><a href="#" class="button fit">Se connecter</a></li>
+				</ul>
+			</nav>
+		<!-- Banner -->
+			<section class="recherche">
+				<div class="inner">
+					<div class="recherche_p">
+						<form method="post" action="#">
+							<div class="row uniform">
+								<div class="9u 12u$(small)">
+									<input type="text" name="query" id="query" value="" placeholder="Query" />
+								</div>
+								<div class="3u$ 12u$(small)">
+									<input type="submit" value="recherche" class="fit" />
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+			<!-- Google Map -->
+			<section class="g-map">
+				<div class="inner">
+					<h2><p>Il y a 2 Hôtels à la Loupe !</p></h2>
+					<img id="map" src="assets/img/googlemaps.png"></img>
+				</div>
+			</section>
+			<!-- Fin Google Map -->
+			<!-- Menu resultats -->
+			<section class="resultats">
+				<div id="class">
+					<h1 class="classement">
+						<p>Classer par:</p>
+					</h1>
+					<form method="post" action="traitement.php" class="critere1">
+						<div class="4u$">
+							<div class="select-wrapper">
+								<select name="category" id="category">
+									<option value="">Prix</option>
+									<option value="1">#</option>
+									<option value="1">#</option>
+									<option value="1">#</option>
+									<option value="1">#</option>
+									<option value="1">#</option>
+								</select>
+							</div>
+						</div>
+					</form>
+					<form method="post" action="traitement.php" class="critere2">
+						<div class="4u$"></div>
+						<div class="select-wrapper">
+							<select name="category" id="category">
+								<option value="">Étoile</option>
+								<option value="1">#</option>
+								<option value="1">#</option>
+								<option value="1">#</option>
+								<option value="1">#</option>
+								<option value="1">#</option>
+							</select>
+						</div>
+					</form>						
+					<form method="post" action="traitement.php" class="critere3">
+					<div class="select-wrapper">
+							<select name="category" id="category">
+								<option value="">Notes</option>
+								<option value="1">#</option>
+								<option value="1">#</option>
+								<option value="1">#</option>
+								<option value="1">#</option>
+								<option value="1">#</option>
+							</select>
+						</div>
+					</form>
+				</div>
+			</section>
+			<!-- Fin menu resultats -->
+			<!-- Resultats -->
+			<section class="box">
+				<div class="liste_hotel">
+					<h1>
+						<a href="hotel.html">Hotel N°1</a>
+					</h1>
+					<p><strong>La Loupe</strong>( 0.5km du centre ville)<br />Court trajet jusqu'à la gare principale<br/>
+					<br />
+					l'hotel est ... ..........................................................................<br />
+					..................................................................................................................<br />
+					..................................................................................................................<br />
+					.....................................................................................................<br />
+					</p>
+				</div>	
+			</section>
+			 <section class="box">
+				<div class="liste_hotel">
+					<h1>Hotel n°2</h1>
+					<p><strong>La Loupe</strong>( 0.5km du centre ville)<br />Court trajet jusqu'à la gare principale<br/>
+					<br />
+					l'hotel est ... .................................<br />
+					.........................................................................<br />
+					.........................................................................<br />
+					...................................................................<br />
+					</p>
+				</div>
+			</section>
+			 <section class="box">
+				<div class="liste_hotel">
+					<h1>Hotel n°3</h1>
+					<p><strong>La Loupe</strong>( 0.5km du centre ville)<br />Court trajet jusqu'à la gare principale<br/>
+					<br />
+					l'hotel est ... ..................................<br />
+					..........................................................................<br />
+					..........................................................................<br />
+					...................................................................<br />
+					</p>
+				</div>
+			</section>
+			<section class="box">
+				<div class="liste_hotel">
+					<h1>Hotel n°4</h1>
+					<p><strong>La Loupe</strong>( 0.5km du centre ville)<br />Court trajet jusqu'à la gare principale<br/>
+					<br />
+					l'hotel est ... .....................................<br />
+					.............................................................................<br />
+					.............................................................................<br />
+					...................................................................<br />
+					</p>
+				</div>
+			</section>
+			<section class="box">
+				<div class="liste_hotel">
+					<h1>Hotel N°5</h1>
+					<p><strong>La Loupe</strong>( 0.5km du centre ville)<br />
+					Court trajet jusqu'à la gare principale<br/>
+					<br />
+					l'hotel est ... ..........................................................................<br />
+					..................................................................................................<br />
+					.....................................................................................................<br />
+					........................................................................................<br />
+					</p>
+				</div>
+			</section>
+			<section class="box">
+				<div class="liste_hotel">
+					<h1>Hotel N°6</h1>
+					<p><strong>La Loupe</strong>( 0.5km du centre ville)<br />
+					Court trajet jusqu'à la gare principale<br/>
+					<br />
+					l'hotel est ... ..........................................................................<br />
+					..................................................................................................................<br />
+					..................................................................................................................<br />
+					.....................................................................................................<br />
+					</p>
+				</div>
+			</section>
+			<section class="box">
+				<div class="liste_hotel">
+					<h1>Hotel n°7</h1>
+					<p><strong>La Loupe</strong>( 0.5km du centre ville)<br />
+					Court trajet jusqu'à la gare principale<br/>
+					<br />
+					l'hotel est ... ..........................................................................<br />
+					..................................................................................................................<br />
+					..................................................................................................................<br />
+					.....................................................................................................<br />
+					</p>
+				</div>
+			</section>
+			<section class="box">
+				<div class="liste_hotel">
+					<h1>Hotel n°8</h1>
+					<p><strong>La Loupe</strong>( 0.5km du centre ville)<br />
+					Court trajet jusqu'à la gare principale<br/>
+					<br />
+					l'hotel est ... ..........................................................................<br />
+					..................................................................................................................<br />
+					..................................................................................................................<br />
+					.....................................................................................................<br />
+					</p>
+				</div>
+			</section>
+			<section class="box">
+				<div class="liste_hotel">
+					<h1>Hotel n°9</h1>
+					<p><strong>La Loupe</strong>( 0.5km du centre ville)<br />
+					Court trajet jusqu'à la gare principale<br/>
+					<br />
+					l'hotel est ... ..........................................................................<br />
+					..................................................................................................................<br />
+					..................................................................................................................<br />
+					.....................................................................................................<br />
+					</p>
+				</div>
+			</section>
+			<section class="box liste_hotel">
+				<div class="liste_hotel">
+					<h1>Hotel n°10</h1>
+					<p><strong>La Loupe</strong>( 0.5km du centre ville)<br />
+					Court trajet jusqu'à la gare principale<br/>
+					<br />
+					l'hotel est ... ..........................................................................<br />
+					..................................................................................................................<br />
+					..................................................................................................................<br />
+					.....................................................................................................<br />
+					</p>
+				</div>
+			</section>
+			<!-- Fin resultats -->
+			<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<section class="contact-info">
+						<h4 class="major">Nous contacter</h4>
+							<ul class="contact">
+								<li class="fa-phone">02.54.80.27.00</li>
+							</ul>
+							<ul class="contact">
+								<li class="fa-envelope"><a href="#">laurent.ciarka@gmail.com</a></li>
+							</ul>
+							<ul class="contact">
+								<li class="fa-home">ToBook France<br />8, boulevard de Tremault - 41 100 Vendôme</li>
+							</ul>
+					</section>
+				</div>
+				<div class="copyright">
+					<p>&copy; Untitled Corp. Tout droits réservés | Contacts | CGU | Tactile <span>par Pixelarity | Intégration Web WCS</p>
+				</div>
+			</footer>
+			<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+		</body>
+	</html>
