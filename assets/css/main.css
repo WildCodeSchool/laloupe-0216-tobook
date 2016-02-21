@@ -3264,7 +3264,7 @@
 		-ms-align-items: center;
 		align-items: center;
 		padding: 4em 0 2em 0 ;
-		background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/c01.jpg");
+		background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/background-1.jpg");
 		background-position: center;
 		background-size: cover;
 		background-attachment: fixed;
@@ -4588,6 +4588,7 @@
 
 
 		/* MODIFICATIONS THOMAS */
+
 		 .photo_profil img {
 		    margin-left: 30px !important;
 		    margin-top: 30px !important;
@@ -4596,10 +4597,11 @@
 		}
 
 		.tableau_commentaires {
-			width: 100%;
-			margin-left: 80px;
-			margin-top: 30px !important;
-			margin-bottom: 30px !important;
+			width: 80%;
+			margin-left: 40px;
+			margin-top: 30px;
+			margin-bottom: 30px;
+			margin-right: 40px;
 			padding-left: 5px;
 			padding-right: 5px;
 			border : 3px solid;
@@ -4616,32 +4618,31 @@
 		}
 
 		.info_utilisateurs {
-			height: 560px;
+			height: 360px;
 			border: 2px solid;
 			margin-left: 30px !important;
 			text-decoration: none;
 		}
 
-		.info_utilisateurs h3 {
-			margin-top: 30px;
-			padding: 6px;
-		}
+			.info_utilisateurs h3 {
+				margin-top: 30px;
+				padding: 6px;
+			}
 
-		.info_utilisateurs ul {
-			list-style-type: none;
-		}
+			.info_utilisateurs ul {
+				list-style-type: none;
+			}
+		
+			.info_utilisateurs li {
+				letter-spacing: 0.035em;
+			}
 
-		.info_utilisateurs li {
-			letter-spacing: 0.035em;
-		}
+				.info_utilisateurs li span {
+					font-weight: bold;
+					text-decoration: underline;
+				}
 
-		.info_utilisateurs li span {
-			font-weight: bold;
-			text-decoration: underline;
-		}
-
-
-
+		}	
 
 
 #map {
