@@ -2855,7 +2855,8 @@ body {
 }
 
 #header {
-    background: #66B32F;
+    /*background: #66B32F;*******ninon*********/
+    background: white;/********ninon*********/
     border-bottom: solid 1px rgba(144, 144, 144, 0.3);
     color: #555;
     height: 3.25em;
@@ -2884,11 +2885,15 @@ body {
 
 #header > h1 a {
     font-weight: 700;
+    text-transform: capitalize;/******ninon*******/
+    color: rgb(102,179,47);/******ninon********/
 }
 
 #header > h1 span {
-    font-weight: 300;
-    color: white;
+    /*font-weight: 300;
+    color: white;*****ninon******/
+    text-transform: lowercase;/******ninon*******/
+    color: initial;/******ninon*******/
 }
 
 #header > a {
@@ -2898,7 +2903,7 @@ body {
     transition: color 0.2s ease-in-out;
     display: inline-block;
     padding: 0 0.75em;
-    color: #fff;
+    color: inherit;
     text-decoration: none;
 }
 
@@ -3357,7 +3362,8 @@ License: pixelarity.com/license
 #banner button.special,
 #banner .button.special {
     border: none;
-    background-color: #76C8B7;
+    /*background-color: #76C8B7;********ninon*********/
+    background-color: rgb(102,179,47);/********ninon*********/
     color: #ffffff !important;
 }
 
@@ -3366,7 +3372,8 @@ License: pixelarity.com/license
 #banner input[type="button"].special:hover,
 #banner button.special:hover,
 #banner .button.special:hover {
-    background-color: #88cfc1;
+    /*background-color: #88cfc1;*********ninon***********/
+    background-color: rgb(84,86,105);/********ninon********/
 }
 
 #banner input[type="submit"].special:active,
@@ -3731,7 +3738,7 @@ License: pixelarity.com/license
 }
 
 .wrapper > .inner.narrow {
-    max-width: 32em;
+    /*max-width: 32em;*********ninon************/
 }
 
 .wrapper.alt {
@@ -3739,7 +3746,8 @@ License: pixelarity.com/license
 }
 
 .wrapper.style1 {
-    background-color: #76C8B7;
+    /*background-color: #76C8B7;*******ninon**********/
+    background-color: rgb(102,179,47);/************ninon************/
     color: #f8fcfb;
 }
 
@@ -3821,7 +3829,8 @@ License: pixelarity.com/license
 .wrapper.style1 .button.special {
     border: none;
     background-color: #fff;
-    color: #76C8B7 !important;
+    /*color: #76C8B7 !important;*********ninon**********/
+    color: rgb(102,179,47) !important;/********ninon************/
 }
 
 .wrapper.style1 input[type="submit"].special:hover,
@@ -3829,7 +3838,8 @@ License: pixelarity.com/license
 .wrapper.style1 input[type="button"].special:hover,
 .wrapper.style1 button.special:hover,
 .wrapper.style1 .button.special:hover {
-    background-color: white;
+    /*background-color: white;*******ninon********/
+    background-color: rgba(255, 255, 255, 0.8);/********ninon********/
 }
 
 .wrapper.style1 input[type="submit"].special:active,
@@ -4020,6 +4030,7 @@ License: pixelarity.com/license
 .wrapper.style2 button:hover,
 .wrapper.style2 .button:hover {
     background-color: rgba(0, 0, 0, 0.1);
+    color: rgb(102,179,47) !important;/*******ninon*********/
 }
 
 .wrapper.style2 input[type="submit"]:active,
@@ -4183,7 +4194,8 @@ License: pixelarity.com/license
 }
 
 .wrapper.style2 .icon.major:before {
-    color: #76C8B7;
+    /*color: #76C8B7;*********ninon*********/
+    color: rgb(102,179,47);/*********ninon*************/
 }
 
 @media screen and (max-width: 1280px) {
@@ -4486,7 +4498,8 @@ License: pixelarity.com/license
     flex-wrap: wrap;
     margin-bottom: 2em;
     padding-left: 4em;
-    width: 100%;*/
+    /*width: 100%;******ninon**********/
+    width: 50%;
 }
 
 #footer .contact-info h4 {
@@ -4494,7 +4507,8 @@ License: pixelarity.com/license
 }
 
 #footer .contact-info ul {
-    width: 33%;
+    /*width: 33%;****ninon******/
+    width: 50%;
 }
 
 #footer .copyright {
@@ -4519,9 +4533,9 @@ License: pixelarity.com/license
     padding-left: 0;
 }
 
-#footer .contact2 {
-    display: inline;
-}
+/*#footer .contact2 {
+display: inline;
+}******ninon*********/
 
 @media screen and (max-width: 1280px) {
 
@@ -4549,10 +4563,10 @@ License: pixelarity.com/license
         padding-left: 0;
         width: 100%;
     }
-    #footer .contact-info ul {
-        margin-bottom: 0;
-        width: 50%;
-    }
+    /*#footer .contact-info ul {
+    margin-bottom: 0;
+    width: 50%;
+}*************ninon*************/
 
 
 }
@@ -4702,15 +4716,117 @@ table tbody tr:first-child {
     background-color: rgba(102, 179, 47, 0.5);
     font-weight: bold;
 }
-/******************/
 /********ninon**********/
 table td:nth-child(2), 
 table th:nth-child(2) {
-    text-align: right
+    text-align: right;
 }
-/******************/
 /*********ninon***********/
-.titre-fiche {
+.colorvert {
     color: rgba(102, 179, 47, 1);
 }
-/********************/
+/*********ninon***********/
+#footer .modifcol {
+    width: 25%;
+}
+/*********ninon***********/
+#footer .modifcol ul {
+    width: 100%;
+}
+/*********ninon***********/
+#footer .linopad {
+    padding-left: 0;
+}
+/*********ninon***********/
+#two .content span{
+    font-weight: bold;
+}
+/*********ninon***********/
+.topcherche{
+    margin-top: -8.5em;
+}
+/*********ninon***********/
+form li.chercheblock {
+    display: block;
+    padding-bottom: 2em;
+}
+header#topcherche {
+    padding-bottom: 0em;
+}
+.width50 {
+    width: 50%;
+}
+.width30 {
+    width: 30%;
+}
+.width80 {
+    width: 80%;
+}
+
+.wrappermodif {
+    padding: 0 0 3em 0 ;/********ninon********/
+}
+
+/**********@media screen**********/
+/*********ninon***********/
+@media screen and (max-width: 1680px) {
+    .topcherche {
+        margin-top: -7.5em;
+    }
+}
+/*********ninon***********/
+@media screen and (max-width: 1280px) {
+    .topcherche {
+        margin-top: -7em;
+    }
+    .width80 {
+        width: 90%;
+    }
+    .wrappermodif {
+        padding-top: 0 ;/*******ninon********/
+    }
+}
+/*********ninon***********/
+@media screen and (max-width: 980px) {
+    #footer .modifcol {
+        width: 50%;
+    }
+    .width50 {
+        width: 30%;
+    }
+    .width30 {
+        width: 40%;
+    }
+    .topcherche {
+        margin-top: -8em;
+    }
+    header#topcherche {
+        padding-bottom: 0em;
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    .wrappermodif {
+        padding-top: 0 ;/*********ninon******/
+    }
+}
+/*********ninon***********/
+@media screen and (max-width: 736px) {
+    header#topcherche {
+        display: none;
+    }
+    .wrappermodif {
+        padding-top: 1em ;/*********ninon*******/
+    }
+}
+/*********ninon***********/
+@media screen and (max-width: 480px) {
+    #footer .modifcol {
+        width: 100%;
+    }
+    .width80 {
+        width: 100%;
+    }
+    .wrappermodif {
+        padding-top: 0.5em  ;/***********ninon**********/
+    }
+}
