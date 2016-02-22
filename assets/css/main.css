@@ -4665,7 +4665,7 @@ display: inline;
 
 
 
-
+/********jo**********/
 #map {
     width:70%;
     margin-left: 150px;
@@ -4674,21 +4674,27 @@ display: inline;
 .g-map h2 p {
     text-align: center;
 }
+#class {
+    padding-top: 2em;
+}
 #class h1 p {
     background-color: #66B32F;
     border-radius: 5px;
-    border: 1px solid;
-    border-color: #fff;
+    /*border: 1px solid;
+    border-color: #fff;*/
     padding: 10px;
 
 }
+
 .resultats {
-    margin-top: 30px;
+    background-color: rgb(102,179,47);
+    /*margin-top: 30px;*/
     text-align: center;
 }
 .classement {
     display: inline-block;
     width: 13%;
+    margin: 0;
 }
 .critere1 {
     display: inline-block;
