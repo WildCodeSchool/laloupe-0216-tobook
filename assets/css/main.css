@@ -3638,7 +3638,7 @@ License: pixelarity.com/license
 }
 
 #main > header input, #main > header select, #main > header textarea {
-    color: #ffffff;
+    color: rgba(0, 0, 0, 0.8); /* Modification Thomas 22.02.2016 13h23 */
 }
 
 #main > header a {
