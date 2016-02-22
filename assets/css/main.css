@@ -4610,6 +4610,17 @@ display: inline;
 
 
 /* MODIFICATIONS THOMAS */
+
+h5 {
+    display: inline;
+    margin-right: 350px;
+}
+
+#langue, #devise {
+    color: rgb(102, 179, 47);
+}
+
+
 .photo_profil img {
     margin-left: 30px !important;
     margin-top: 30px !important;
