@@ -4232,6 +4232,370 @@ License: pixelarity.com/license
 }
 
 
+<<<<<<< HEAD
+=======
+	#banner {
+		background-color: #444;
+		color: #ffffff;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-flex-direction: column;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		padding: 4em 0 2em 0 ;
+		background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/background-1.jpg");
+		background-position: center;
+		background-size: cover;
+		background-attachment: fixed;
+		height: calc(100vh - 3.125em);
+		min-height: 30em;
+		text-align: center;
+		font-weight: bold;
+		width: 100%;
+	}
+
+		#banner input, #banner select, #banner textarea {
+			color: #;
+			/*width: 50%;*/
+			margin:auto;
+		}
+
+		#banner a {
+			color: #76C8B7;
+		}
+
+		#banner strong, #banner b {
+			color: #ffffff;
+		}
+
+		#banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
+			color: #ffffff;
+		}
+
+			#banner h1.major:after, #banner h2.major:after, #banner h3.major:after, #banner h4.major:after, #banner h5.major:after, #banner h6.major:after {
+				background-color: #ffffff;
+			}
+
+		#banner blockquote {
+			border-left-color: #fff;
+		}
+
+		#banner code {
+			background: rgba(255, 255, 255, 0.1);
+			border-color: #fff;
+		}
+
+		#banner hr {
+			border-bottom-color: #fff;
+		}
+
+		#banner input[type="submit"],
+		#banner input[type="reset"],
+		#banner input[type="button"],
+		#banner button,
+		#banner .button {
+			background-color: transparent;
+			border-color: #fff;
+			color: #ffffff !important;
+		}
+
+			#banner input[type="submit"]:hover,
+			#banner input[type="reset"]:hover,
+			#banner input[type="button"]:hover,
+			#banner button:hover,
+			#banner .button:hover {
+				background-color: rgba(255, 255, 255, 0.1);
+			}
+
+			#banner input[type="submit"]:active,
+			#banner input[type="reset"]:active,
+			#banner input[type="button"]:active,
+			#banner button:active,
+			#banner .button:active {
+				background-color: rgba(255, 255, 255, 0.2);
+			}
+
+			#banner input[type="submit"].icon:before,
+			#banner input[type="reset"].icon:before,
+			#banner input[type="button"].icon:before,
+			#banner button.icon:before,
+			#banner .button.icon:before {
+				color: #ffffff;
+			}
+
+			#banner input[type="submit"].special,
+			#banner input[type="reset"].special,
+			#banner input[type="button"].special,
+			#banner button.special,
+			#banner .button.special {
+				border: none;
+				background-color: #76C8B7;
+				color: #ffffff !important;
+			}
+
+				#banner input[type="submit"].special:hover,
+				#banner input[type="reset"].special:hover,
+				#banner input[type="button"].special:hover,
+				#banner button.special:hover,
+				#banner .button.special:hover {
+					background-color: #88cfc1;
+				}
+
+				#banner input[type="submit"].special:active,
+				#banner input[type="reset"].special:active,
+				#banner input[type="button"].special:active,
+				#banner button.special:active,
+				#banner .button.special:active {
+					background-color: #64c1ad;
+				}
+
+				#banner input[type="submit"].special.icon:before,
+				#banner input[type="reset"].special.icon:before,
+				#banner input[type="button"].special.icon:before,
+				#banner button.special.icon:before,
+				#banner .button.special.icon:before {
+					color: #ffffff;
+				}
+
+		#banner > .inner {
+			position: relative;
+			display: inline-block;
+			min-width: 50%;/**/
+			max-width: 100%;
+			padding: 0 2em;
+			z-index: 1;
+		}
+
+			#banner > .inner > * {
+				-moz-transition: -moz-transform 0.75s ease, opacity 0.75s ease, -moz-filter 0.25s ease;
+				-webkit-transition: -webkit-transform 0.75s ease, opacity 0.75s ease, -webkit-filter 0.25s ease;
+				-ms-transition: -ms-transform 0.75s ease, opacity 0.75s ease, -ms-filter 0.25s ease;
+				transition: transform 0.75s ease, opacity 0.75s ease, filter 0.25s ease;
+				-moz-transform: translateY(0);
+				-webkit-transform: translateY(0);
+				-ms-transform: translateY(0);
+				transform: translateY(0);
+				-moz-filter: blur(0);
+				-webkit-filter: blur(0);
+				-ms-filter: blur(0);
+				filter: blur(0);
+				opacity: 1;
+			}
+
+			#banner > .inner > :nth-child(1) {
+				-moz-transition-delay: 0s;
+				-webkit-transition-delay: 0s;
+				-ms-transition-delay: 0s;
+				transition-delay: 0s;
+			}
+
+			#banner > .inner > :nth-child(2) {
+				-moz-transition-delay: 0.2s;
+				-webkit-transition-delay: 0.2s;
+				-ms-transition-delay: 0.2s;
+				transition-delay: 0.2s;
+			}
+
+			#banner > .inner > :nth-child(3) {
+				-moz-transition-delay: 0.4s;
+				-webkit-transition-delay: 0.4s;
+				-ms-transition-delay: 0.4s;
+				transition-delay: 0.4s;
+			}
+
+			#banner > .inner > :nth-child(4) {
+				-moz-transition-delay: 0.6s;
+				-webkit-transition-delay: 0.6s;
+				-ms-transition-delay: 0.6s;
+				transition-delay: 0.6s;
+			}
+
+			#banner > .inner > :nth-child(5) {
+				-moz-transition-delay: 0.8s;
+				-webkit-transition-delay: 0.8s;
+				-ms-transition-delay: 0.8s;
+				transition-delay: 0.8s;
+			}
+
+		#banner h2 {
+			font-size: 2em;
+		}
+
+		#banner p {
+			font-size: 1.25em;
+			margin-bottom: 1.75em;
+		}
+
+		#banner .button {
+			min-width: 15em;
+		}
+
+		#banner:after {
+			-moz-transition: opacity 1s ease;
+			-webkit-transition: opacity 1s ease;
+			-ms-transition: opacity 1s ease;
+			transition: opacity 1s ease;
+			content: '';
+			display: block;
+			background: #444;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			opacity: 0;
+		}
+
+		body.is-loading #banner > .inner > * {
+			-moz-transform: translateY(0.35em);
+			-webkit-transform: translateY(0.35em);
+			-ms-transform: translateY(0.35em);
+			transform: translateY(0.35em);
+			-moz-filter: blur(1px);
+			-webkit-filter: blur(1px);
+			-ms-filter: blur(1px);
+			filter: blur(1px);
+			opacity: 0;
+		}
+
+		body.is-loading #banner:after {
+			opacity: 1;
+		}
+
+		#banner img{
+			width: 15%;
+		}
+		
+		    
+
+}
+
+    /* Barre de recherche 
+		#barre_recherche
+	{
+	  	border-radius: 8px;   /* Style de la bordure  */
+	  	padding: 10px 10px 10px 10px;
+	  	/*width: 150px;*/
+	  	margin-left: auto;
+	  	margin-right: auto;
+	  	opacity: 1;
+	}
+	#barre_recherche p
+	{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#barre_recherche label
+	{
+		color: #ffffff;
+	}
+	#barre_recherche select option:hover
+	{
+		background: #76C8B7;
+	}
+	/* Fond du gadget de la barre de recherche */
+	.recherche_p 
+	{
+	  border-radius: 8px;   /* Style de la bordure  */
+	  border-width: 3px;   /* Epaisseur de la bordure  */
+	  border-color: #dddddd;   /* Couleur de la bordure  */
+	  padding: 10px 10px 10px 10px;   /* Espace entre les bords et le contenu : haut droite bas gauche  */
+	}
+
+	/* Champ de saisie */
+	#searchthis #search {
+	  background-color: #fff;   /* Couleur de fond */
+	  border-style: solid;   /* Style de la bordure  */
+	  border-width: 1px;   /* Epaisseur de la bordure  */
+	  padding: 5px 10px 5px 10px;   /* Espace entre les bords et le contenu : haut droite bas gauche  */
+	  /*width: 100%;    Permet d'ajuster la largeur du champ de saisie à 100% */
+	  box-sizing: border-box;   /* Important */
+	  font-size: 12px;   /* Taille de la police du texte */
+	  font-weight: normal;   /* Graisse du texte : normal = normal ; bold = gras */
+	  letter-spacing: 1px;   /* Espacement des caractères */
+	}
+
+	/* Bouton valider */
+	#searchthis #search-btn {
+	  background-color: #66B32F	;   /* Couleur de fond */
+	  border-style: solid;   /* Style de la bordure  */
+	  border-width: 0px;   /* Epaisseur de la bordure  */
+	  border-color: #76C8B7;   /* Couleur de la bordure  */
+	  vertical-align: middle;
+	  /*width: 50%;    Permet d'ajuster la largeur du champ de saisie à 100% */
+	  box-sizing: border-box;   /* Important */
+	  font-size: 13px;   /* Taille de la police du texte */
+	  font-weight: normal;   /* Graisse du texte : normal = normal ; bold = gras */
+	  letter-spacing: 2px;   /* Espacement des caractères */
+	  margin: 10px 0 0 0;   /* Espace autour du bouton : haut droite bas gauche  */
+	  padding: 0px 10px 10px 10px;   /* Espace entre les bords et le contenu : haut droite bas gauche  */
+	  text-transform: uppercase;   /* Transforme le texte en majuscules */
+	  color: #ffffff;   /* Couleur du texte */
+	}
+
+	/* Bouton valider quand survolé par la souris */
+	#searchthis #search-btn:hover {
+	  background-color: #545669;   /* Couleur de fond */
+	  color: #76C8B7;   /* Couleur du texte */
+	  cursor: pointer;   /* Apparence du curseur comme pour un lien */
+	}
+
+		@media screen and (max-width: 1280px) {
+
+			#banner {
+				background-attachment: scroll;
+			}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			#banner {
+				height: calc(100vh - 44px);
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#banner h2 {
+				font-size: 1.5em;
+			}
+
+			#banner p {
+				font-size: 1.1em;
+			}
+
+			#banner img {
+				width: 25%;
+			}
+
+			#barre_recherche {
+				/*max-width: 60%;*/
+				position: center;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+		}
+
+	/*
+		Tactile by Pixelarity
+		pixelarity.com @pixelarity
+		License: pixelarity.com/license
+	*/
+>>>>>>> devthomas
 
 /* Footer */
 
@@ -4647,6 +5011,7 @@ h5 {
 #classerpar
 {
 
+<<<<<<< HEAD
 }
 
 .photo_profil img {
@@ -4655,6 +5020,26 @@ h5 {
     /*border: 2px solid;
     border-radius: 25px;*/
 }
+=======
+		/* MODIFICATIONS THOMAS */
+
+		 .photo_profil img {
+		    margin-left: 30px !important;
+		    margin-top: 30px !important;
+		    border: 2px solid;
+		    border-radius: 25px;
+		}
+
+		.tableau_commentaires {
+			width: 80%;
+			margin-left: 40px;
+			margin-top: 30px;
+			margin-bottom: 30px;
+			margin-right: 40px;
+			padding-left: 5px;
+			padding-right: 5px;
+			border : 3px solid;
+>>>>>>> devthomas
 
 .tableau_commentaires {
     width: 100%;
@@ -4672,6 +5057,7 @@ h5 {
     padding-left: 10px;
 }
 
+<<<<<<< HEAD
 .profil_utilisateurs > section.spotlight{
     align-items: inherit;
 }
@@ -4706,7 +5092,34 @@ h5 {
         display: none;
     }
 }
+=======
+		.info_utilisateurs {
+			height: 360px;
+			border: 2px solid;
+			margin-left: 30px !important;
+			text-decoration: none;
+		}
 
+			.info_utilisateurs h3 {
+				margin-top: 30px;
+				padding: 6px;
+			}
+
+			.info_utilisateurs ul {
+				list-style-type: none;
+			}
+		
+			.info_utilisateurs li {
+				letter-spacing: 0.035em;
+			}
+
+				.info_utilisateurs li span {
+					font-weight: bold;
+					text-decoration: underline;
+				}
+>>>>>>> devthomas
+
+		}	
 
 
 /********jo**********/
