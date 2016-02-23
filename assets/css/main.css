@@ -4595,7 +4595,6 @@ License: pixelarity.com/license
 		pixelarity.com @pixelarity
 		License: pixelarity.com/license
 	*/
->>>>>>> devthomas
 
 /* Footer */
 
@@ -5010,8 +5009,7 @@ h5 {
 
 #classerpar
 {
-
-<<<<<<< HEAD
+    TRUC A METTRE ICI   
 }
 
 .photo_profil img {
@@ -5020,26 +5018,7 @@ h5 {
     /*border: 2px solid;
     border-radius: 25px;*/
 }
-=======
-		/* MODIFICATIONS THOMAS */
 
-		 .photo_profil img {
-		    margin-left: 30px !important;
-		    margin-top: 30px !important;
-		    border: 2px solid;
-		    border-radius: 25px;
-		}
-
-		.tableau_commentaires {
-			width: 80%;
-			margin-left: 40px;
-			margin-top: 30px;
-			margin-bottom: 30px;
-			margin-right: 40px;
-			padding-left: 5px;
-			padding-right: 5px;
-			border : 3px solid;
->>>>>>> devthomas
 
 .tableau_commentaires {
     width: 100%;
@@ -5057,7 +5036,6 @@ h5 {
     padding-left: 10px;
 }
 
-<<<<<<< HEAD
 .profil_utilisateurs > section.spotlight{
     align-items: inherit;
 }
@@ -5092,8 +5070,8 @@ h5 {
         display: none;
     }
 }
-=======
-		.info_utilisateurs {
+		
+        .info_utilisateurs {
 			height: 360px;
 			border: 2px solid;
 			margin-left: 30px !important;
@@ -5116,10 +5094,7 @@ h5 {
 				.info_utilisateurs li span {
 					font-weight: bold;
 					text-decoration: underline;
-				}
->>>>>>> devthomas
-
-		}	
+				}	
 
 
 /********jo**********/
