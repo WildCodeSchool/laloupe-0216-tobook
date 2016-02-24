@@ -25,9 +25,135 @@ License: pixelarity.com/license
 
             <a id="modal_trigger" href="#modal" class="btn btnsansrien"><span>S'INSCRIRE</span></a>
             <!-- Insertion du pop-up de connexion/inscription -->
-            
+            <div id="modal" class="popupContainer" style="display:none;">
+                <header class="popupHeader">
+                    <span class="header_title">
+                        Connexion
+                    </span>
+                    <span class="modal_close">
+                        <i class="fa fa-times"></i>
+                    </span>
+                </header>
+                <section class="popupBody">
+                <!-- Social Login -->
+                    <div class="social_login">
+                        <div>
+                            <a href="#" class="social_box fb">
+                                <span class="icon">
+                                    <i class="fa fa-facebook"></i>
+                                </span>
+                                <span class="icon_title">
+                                    Se connecter avec Facebook
+                                </span>
+                            </a>
+                            <a href="#" class="social_box google">
+                                <span class="icon">
+                                    <i class="fa fa-google-plus"></i>
+                                </span>
+                                <span class="icon_title">
+                                    Se connecter avec Google
+                                </span>
+                            </a>
+                        </div>
+                        <div class="centeredText">
+                            <span>
+                                Ou utilisez votre adresse mail
+                            </span>
+                        </div>
+                        <div class="action_btns">
+                            <div class="one_half">
+                                <a href="#" id="login_form" class="btn">
+                                    Se Connecter
+                                </a>
+                            </div>
+                            <div class="one_half last">
+                                <a href="#" id="register_form" class="btn">
+                                    S'inscrire
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Username & Password Login form -->
+                    <div class="user_login">
+                        <form>
+                            <label>
+                                Email / Nom d'utilisateur
+                            </label>
+                            <input type="text" />
+                            <br />
+                            <label>
+                                Mot de passe
+                            </label>
+                            <input type="password" />
+                            <br />
+                            <div class="checkbox">
+                                <input id="remember" type="checkbox" />
+                                <label for="remember">
+                                    Se souvenir de moi
+                                </label>
+                            </div>
+                            <div class="action_btns">
+                                <div class="one_half">
+                                    <a href="#" class="btn back_btn">
+                                        <i class="fa fa-angle-double-left"></i>
+                                        Précédent
+                                    </a>
+                                </div>
+                                <div class="one_half last">
+                                    <a href="#" class="btn btn_red">
+                                        Se connecter
+                                    </a>
+                                </div>
+                            </div>
+                        </form>
+                        <a href="#" class="forgot_password">
+                            Mot de passe oublié ?
+                        </a>
+                    </div>
+                    <!-- Register Form -->
+                    <div class="user_register">
+                        <form>
+                            <label>
+                                Nom d'utilisateur
+                            </label>
+                            <input type="text" />
+                            <br />
+                            <label>
+                                Adresse e-mail
+                            </label>
+                            <input type="email" />
+                            <br />
+                            <label>
+                                Mot de passe
+                            </label>
+                            <input type="password" />
+                            <br />
+                            <div class="checkbox">
+                                <input id="send_updates" type="checkbox" />
+                                <label for="send_updates">
+                                    S'abonner a la newsletter
+                                </label>
+                            </div>
+                            <div class="action_btns">
+                                <div class="one_half">
+                                    <a href="#" class="btn back_btn">
+                                        <i class="fa fa-angle-double-left"></i>
+                                        Précédent
+                                    </a>
+                                </div>
+                                <div class="one_half last">
+                                    <a href="#" class="btn btn_red">
+                                        S'inscrire !
+                                    </a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+            </div>
+            <!-- Fin d'insertion du pop-up d'inscription/connexion -->
             <a href="#"><span>Se connecter</span></a>
-            <a href="#menu">Menu</a>
+            <a href="#menu"><span>Menu</span></a>
         </header>
         <!-- Menu -->
         <nav id="menu">
@@ -211,15 +337,14 @@ License: pixelarity.com/license
             </div>
         </footer>
         <!-- Scripts -->
-        <!--<script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/jquery.scrolly.min.js"></script>-->
-        <script src="assets/js/skel.min.js"></script>
-        <script src="assets/js/util.js"></script>
+        <!--<script src="assets/js/jquery.min.js"></script>-->
         <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-        <script src="assets/js/main.js"></script>
-
         <script type="text/javascript" src="assets/js/jquery-1.11.0.min.js"></script>
         <script type="text/javascript" src="assets/js/jquery.leanModal.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/skel.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
         <script type="text/javascript">
             $("#modal_trigger").leanModal({top : 140, overlay : 0.6, closeButton: ".modal_close" });
 
