@@ -14,14 +14,18 @@ License: pixelarity.com/license
         <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
         <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
         <link rel="icon" type="image/png" href="assets/img/logo-tobook.png" />
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" />
     </head>
     <body>
         <!-- Header -->
         <header id="header">
             <h1><a href="index.html">Tobook<span>.club</span></a></h1>
             <h5>Langue &nbsp;<span id="langue">FR</span> | Devise &nbsp;<span id="devise">EUR</span></h5>
-            <a href="#"><span  class="facebook"><img src="./assets/img/icon-facebook.png" alt="Logo Facebook" title="Suivez-nous sur Facebook" /></span></a>
-            <a href="#"><span>S'inscrire</span></a>
+            <a href="#"><span  class="facebook"><img style="vertical-align: middle;" src="./assets/img/icon-facebook.png" alt="Logo Facebook" title="Suivez-nous sur Facebook" /></span></a>
+
+            <a id="modal_trigger" href="#modal" class="btn btnsansrien"><span>S'INSCRIRE</span></a>
+            <!-- Insertion du pop-up de connexion/inscription -->
+            
             <a href="#"><span>Se connecter</span></a>
             <a href="#menu">Menu</a>
         </header>
@@ -65,7 +69,8 @@ License: pixelarity.com/license
                                         </select>
                                     </div>
                                 </li>
-                                <li class="chercheblock"><input type="submit" value="Rechercher" class="special"/></li>
+                                <li class="chercheblock"><input type="submit" value="Rechercher" class="special icon_button"/>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -206,11 +211,44 @@ License: pixelarity.com/license
             </div>
         </footer>
         <!-- Scripts -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <!--<script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>-->
         <script src="assets/js/skel.min.js"></script>
         <script src="assets/js/util.js"></script>
         <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
         <script src="assets/js/main.js"></script>
+
+        <script type="text/javascript" src="assets/js/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.leanModal.min.js"></script>
+        <script type="text/javascript">
+            $("#modal_trigger").leanModal({top : 140, overlay : 0.6, closeButton: ".modal_close" });
+
+            $(function(){
+                // Calling Login Form
+                $("#login_form").click(function(){
+                    $(".social_login").hide();
+                    $(".user_login").show();
+                    return false;
+                });
+
+                // Calling Register Form
+                $("#register_form").click(function(){
+                    $(".social_login").hide();
+                    $(".user_register").show();
+                    $(".header_title").text('Register');
+                    return false;
+                });
+
+                // Going back to Social Forms
+                $(".back_btn").click(function(){
+                    $(".user_login").hide();
+                    $(".user_register").hide();
+                    $(".social_login").show();
+                    $(".header_title").text('Login');
+                    return false;
+                });
+
+            })
+        </script>
     </body>
 </html>
