@@ -18,6 +18,7 @@ License: pixelarity.com/license
         <style>
         </style>
     </head>
+<<<<<<< HEAD
     <?php include 'includes/header.php'; ?>
 
         <!-- Main -->

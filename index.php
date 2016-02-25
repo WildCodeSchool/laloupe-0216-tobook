@@ -17,7 +17,6 @@ License: pixelarity.com/license
         <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" />
     </head>
     <?php include 'includes/header.php'; ?>
-
         <!-- Banner -->
         <section id="banner">
             <div class="inner">

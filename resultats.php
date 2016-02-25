@@ -19,7 +19,7 @@ License: pixelarity.com/license
     <?php include 'includes/header.php'; ?>
         
         <!-- Main -->
-        <article id="main">
+        <article id="map">
             <header>
                 <!-- Form -->
                 <form class="topcherche" method="post" action="#">
@@ -47,9 +47,10 @@ License: pixelarity.com/license
                         </div>
                     </div>
                 </form>
-
+                <div class="loc">
                 <h2 class="major special">Il y a 2 hôtels à Tours.</h2>
-                <p><img class="width80" src="assets/img/Capture%20du%202016-02-18%2017:55:38.png" alt=""</p>
+                <p><img class="width100" src="assets/img/Capture%20du%202016-02-18%2017:55:38.png" alt=""></p>
+                </div>
             </header>
         </article>
         <!-- Menu resultats -->
@@ -109,6 +110,9 @@ License: pixelarity.com/license
                     <h3 class="major"><a href="hotel.php">CHÂTEAU DE PRAY</a></h3>
                     <span>Le charme à la française</span>
                     <p>Etiam finibus pharetra purus, imperdiet sagittis mauris hendrerit vitae. In feugiat ante elementum amet arcu. Maecenas vulputate turpis faucibus, convallis ante et, bibendum ligula. Integer porttitor lacus eu diam pretium, ac purus rutrum.</p>
+                    <ul class="actions">
+                            <li><a href="hotel.html" class="button">Plus de détails</a></li>
+                        </ul>
                 </div>
             </section>
             <section class="spotlight">
@@ -117,6 +121,9 @@ License: pixelarity.com/license
                     <h3 class="major">Londres</h3>
                     <span>Une destination "so British my dear"</span>
                     <p>Etiam finibus pharetra purus, imperdiet sagittis mauris hendrerit vitae. In feugiat ante elementum amet arcu. Maecenas vulputate turpis faucibus, convallis ante et, bibendum ligula. Integer porttitor lacus eu diam pretium, ac purus rutrum.</p>
+                    <ul class="actions">
+                            <li><a href="#" class="button">Plus de détails</a></li>
+                        </ul>
                 </div>
             </section>
             <section class="spotlight">
@@ -125,6 +132,9 @@ License: pixelarity.com/license
                     <h3 class="major">Paris</h3>
                     <span>Le charme à la française</span>
                     <p>Etiam finibus pharetra purus, imperdiet sagittis mauris hendrerit vitae. In feugiat ante elementum amet arcu. Maecenas vulputate turpis faucibus, convallis ante et, bibendum ligula. Integer porttitor lacus eu diam pretium, ac purus rutrum.</p>
+                    <ul class="actions">
+                            <li><a href="#" class="button">Plus de détails</a></li>
+                        </ul>
                 </div>
             </section>
             <section class="spotlight">
@@ -133,6 +143,9 @@ License: pixelarity.com/license
                     <h3 class="major">Londres</h3>
                     <span>Une destination "so British my dear"</span>
                     <p>Etiam finibus pharetra purus, imperdiet sagittis mauris hendrerit vitae. In feugiat ante elementum amet arcu. Maecenas vulputate turpis faucibus, convallis ante et, bibendum ligula. Integer porttitor lacus eu diam pretium, ac purus rutrum.</p>
+                    <ul class="actions">
+                            <li><a href="#" class="button">Plus de détails</a></li>
+                        </ul>
                 </div>
             </section>
         </section>
