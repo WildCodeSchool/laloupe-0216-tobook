@@ -2958,7 +2958,8 @@ body {
     }
 
     #header a span {
-        visibility: hidden;
+        /*visibility: hidden;*******ninon*******/
+        display: none;/*******ninon********/
     }
 
 
@@ -2996,17 +2997,17 @@ body {
     }
 
 
-
-
     #header img
     {
         width: 50%;
         margin-top: 8px;
         float: left;
     }
+
     #header span
     {
-        visibility: hidden;
+        /*visibility: hidden;********ninon*******/
+        display: none;/*********ninon**********/
     }
 
     #header .menu
@@ -4678,12 +4679,13 @@ display: inline;
     padding-top: 2em;
 }
 #class h1 p {
-    background-color: #66B32F;
+    /*background-color: #66B32F;*/
+    background-color: rgb(82, 97, 102);
     border-radius: 5px;
     /*border: 1px solid;
     border-color: #fff;*/
     padding: 10px;
-
+    color: #fff;/**************/
 }
 
 .resultats {
@@ -4713,8 +4715,7 @@ display: inline;
     margin-left: auto;
     margin-right: auto;
 }
-
-
+/********fin jo**********/
 
 
 /********ninon**********/
@@ -4722,36 +4723,36 @@ table tbody tr:first-child {
     background-color: rgba(102, 179, 47, 0.5);
     font-weight: bold;
 }
-/********ninon**********/
+
 table td:nth-child(2), 
 table th:nth-child(2) {
     text-align: right;
 }
-/*********ninon***********/
+
 .colorvert {
     color: rgba(102, 179, 47, 1);
 }
-/*********ninon***********/
+
 #footer .modifcol {
     width: 25%;
 }
-/*********ninon***********/
+
 #footer .modifcol ul {
     width: 100%;
 }
-/*********ninon***********/
+
 #footer .linopad {
     padding-left: 0;
 }
-/*********ninon***********/
+
 #two .content span{
     font-weight: bold;
 }
-/*********ninon***********/
+
 .topcherche{
     margin-top: -8.5em;
 }
-/*********ninon***********/
+
 form li.chercheblock {
     display: block;
     padding-bottom: 2em;
@@ -4770,17 +4771,31 @@ header#topcherche {
 }
 
 .wrappermodif {
-    padding: 0 0 3em 0 ;/********ninon********/
+    padding: 0 0 3em 0 ;
+
+}
+.vertialimid {
+    vertical-align: middle;
 }
 
-/**********@media screen**********/
-/*********ninon***********/
+
+#langue, #devise {
+    color: rgb(102, 179, 47);
+}
+
+.tri {
+    background: rgba(255, 255, 255, 1);
+}
+/********fin ninon**********/
+
+
+/**********@media screen ninon**********/
 @media screen and (max-width: 1680px) {
     .topcherche {
         margin-top: -7.5em;
     }
 }
-/*********ninon***********/
+
 @media screen and (max-width: 1280px) {
     .topcherche {
         margin-top: -7em;
@@ -4789,10 +4804,10 @@ header#topcherche {
         width: 90%;
     }
     .wrappermodif {
-        padding-top: 0 ;/*******ninon********/
+        padding-top: 0 ;
     }
 }
-/*********ninon***********/
+
 @media screen and (max-width: 980px) {
     #footer .modifcol {
         width: 50%;
@@ -4812,19 +4827,25 @@ header#topcherche {
         padding-right: 0em;
     }
     .wrappermodif {
-        padding-top: 0 ;/*********ninon******/
+        padding-top: 0 ;
+    }
+    #header span.langdevise {
+        display: none;
     }
 }
-/*********ninon***********/
+
 @media screen and (max-width: 736px) {
     header#topcherche {
         display: none;
     }
     .wrappermodif {
-        padding-top: 1em ;/*********ninon*******/
+        padding-top: 1em ;
+    }
+    #header span {
+        display: none;
     }
 }
-/*********ninon***********/
+
 @media screen and (max-width: 480px) {
     #footer .modifcol {
         width: 100%;
@@ -4833,6 +4854,7 @@ header#topcherche {
         width: 100%;
     }
     .wrappermodif {
-        padding-top: 0.5em  ;/***********ninon**********/
+        padding-top: 0.5em  ;
     }
 }
+/**********fin @media screen ninon**********/
