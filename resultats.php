@@ -16,29 +16,7 @@ License: pixelarity.com/license
         <link rel="icon" type="image/png" href="assets/img/logo-tobook.png" />
 
     </head>
-    <body>
-        <!-- Header -->
-        <header id="header">
-            <h1><a href="index.html">Tobook<span>.club</span></a></h1>
-            <h5>Langue &nbsp;<span id="langue">FR</span> | Devise &nbsp;<span id="devise">EUR</span></h5>
-            <a href="#"><span style="vertical-align:middle;" class="colorvert fa fa-facebook-square fa-2x"></span></a>
-            <a href="#"><span>S'inscrire</span></a>
-            <a href="#"><span>Se connecter</span></a>
-            <a href="#menu">Menu</a>
-        </header>
-        <!-- Menu -->
-        <nav id="menu">
-            <ul class="links">
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="resultats.html">Recherche</a></li>
-                <li><a href="page_utilisateurs.html">Mon profil</a></li>
-                <li><a href="elements.html">Contact</a></li>
-            </ul>
-            <ul class="actions vertical">
-                <li><a href="#" class="button fit special">S'inscrire</a></li>
-                <li><a href="#" class="button fit">Se connecter</a></li>
-            </ul>
-        </nav>
+    <?php include 'includes/header.php'; ?>
         <!-- Main -->
         <article id="main">
             <header>
@@ -158,61 +136,4 @@ License: pixelarity.com/license
             </section>
         </section>
 
-        <!-- Footer -->
-        <footer id="footer">
-            <div class="inner">
-                <section class="contact-info modifcol">
-                    <h4 class="major">Tobook</h4>
-                    <ul class="contact">
-                        <li class="linopad"><a href="#">À propos</a></li>
-                        <li class="linopad"><a href="#">Conditions générales</a></li>
-                        <li class="linopad"><a href="#">Mentions légales</a></li>
-                        <li class="linopad"><a href="#">Plan du site</a></li>
-                        <li class="linopad"><a href="#">Protection des données</a></li>
-                        <li class="linopad"><a href="#">Politique relative aux cookies</a></li>
-                    </ul>
-                </section>
-                <section class="contact-info modifcol">
-                    <h4 class="major">Mon compte</h4>
-                    <ul class="contact">
-                        <li class="linopad"><a href="#">Mes informations personnelles</a></li>
-                        <li class="linopad"><a href="#">Mes commentaires</a></li>
-                        <li class="linopad"><a href="#">Mes destinations préférées</a></li>
-                        <li class="linopad"><a href="#">Mes alertes</a></li>
-                        <li class="linopad"><a href="#">Mes réservations</a></li>
-                        <li class="linopad">&nbsp;</li>
-                    </ul>
-                </section>
-                <section class="contact-info">
-                    <h4 class="major">Contactez-nous</h4>
-                    <ul class="contact">
-                        <li class="fa-phone">(33) 2 54 80 27 00</li>
-                        <li class="fa-envelope"><a href="#">contact@tobook.club</a></li>
-                        <li class="fa-facebook"><a href="#">facebook.com/tobook.club</a></li>
-                        <li class="linopad">&nbsp;</li>
-                        <li class="linopad">&nbsp;</li>
-                        <li class="linopad">&nbsp;</li>
-                    </ul>
-                    <ul class="contact">
-                        <li class="fa-home"><b>Siège social</b><br />8, boulevard de Trémault<br />41 000 Vendôme<br />FRANCE</li>
-                        <li class="linopad">&nbsp;</li>
-                        <li class="linopad">&nbsp;</li>
-                        <li class="linopad">&nbsp;</li>
-                    </ul>
-                </section>
-            </div>
-            <div class="copyright">
-                <p>Conception graphique : maitre-christel.fr - Copyright &copy; 2016 - Tobook.club - Tous droits réservés.</p>
-            </div>
-        </footer>
-
-        <!-- Scripts -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/jquery.scrolly.min.js"></script>
-        <script src="assets/js/skel.min.js"></script>
-        <script src="assets/js/util.js"></script>
-        <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-        <script src="assets/js/main.js"></script>
-
-    </body>
-</html>
+        <?php include 'includes/footer.php'; ?>
