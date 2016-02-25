@@ -5100,8 +5100,9 @@ h5 {
 /********jo**********/ /* Modification Joffrey 24.02.2016 */
 .loc h2 {
     background-color: rgb(102,179,47);
-
-
+}
+.loc p {
+    margin: 0;
 }
 #map > header {
     /*background-color: #444;*/
@@ -5215,8 +5216,9 @@ h5 {
 .resultats {
     background-color: rgb(82, 97, 102);
     text-align: center;
-    margin-top: -40px;
+    margin-top: -10px;
     padding-top: 10px;
+    height: 65px;
 }
 .classement {
     display: inline-block;
@@ -5240,10 +5242,28 @@ h5 {
     margin-left: auto;
     margin-right: auto;
 }
-
-
-
-
+#elements {
+    display: inline;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+#prix {
+    margin: -11px;
+}
+#prix p {
+    display: inline;
+}
+#prix a {
+    margin-left: 35px;
+    vertical-align: middle;
+}
+.vue {
+    margin: 0;
+}
+/*#elements h2 {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}*/
 /********ninon**********/
 table tbody tr:first-child {
     background-color: rgba(102, 179, 47, 0.5);
