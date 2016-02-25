@@ -2,8 +2,16 @@
         <!-- Header -->
         <header id="header">
             <h1><a href="index.html">Tobook<span>.club</span></a></h1>
-            <h5>Langue &nbsp;<span id="langue">FR</span> | Devise &nbsp;<span id="devise">EUR</span></h5>
-            <a href="#"><span  class="facebook"><img style="vertical-align: middle;" src="./assets/img/icon-facebook.png" alt="Logo Facebook" title="Suivez-nous sur Facebook" /></span></a>
+            <span style="margin-left: 25%; float:left; font-size:90%; font-weight:bold;">
+                <span class="langdevise">Langue</span>
+                <span id="langue">FR</span>
+                <span> | </span>
+                <span class="langdevise">Devise </span>
+                <span id="devise">EUR</span>
+            </span>
+            <a href="https://www.facebook.com/Roomservyou-454428541427992/?fref=nf" target="_blank">
+                <img src="./assets/img/icon-facebook.png" alt="Logo Facebook" title="Suivez-nous sur Facebook" class="vertialimid" />
+            </a>
 
             <a id="modal_trigger" href="#modal" class="btn btnsansrien"><span>S'INSCRIRE</span></a>
             <!-- Insertion du pop-up de connexion/inscription -->
@@ -17,7 +25,7 @@
                     </span>
                 </header>
                 <section class="popupBody">
-                <!-- Social Login -->
+                    <!-- Social Login -->
                     <div class="social_login">
                         <div>
                             <a href="#" class="social_box fb">
@@ -137,16 +145,3 @@
             <a href="#"><span>Se connecter</span></a>
             <a href="#menu"><span>Menu</span></a>
         </header>
-        <!-- Menu -->
-        <nav id="menu">
-            <ul class="links">
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="resultats.html">Recherche</a></li>
-                <li><a href="page_utilisateurs.html">Mon profil</a></li>
-                <li><a href="elements.html">Contact</a></li>
-            </ul>
-            <ul class="actions vertical">
-                <li><a href="#" class="button fit special">S'inscrire</a></li>
-                <li><a href="#" class="button fit">Se connecter</a></li>
-            </ul>
-        </nav>
