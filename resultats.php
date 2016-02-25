@@ -106,7 +106,7 @@ License: pixelarity.com/license
             <section class="spotlight">
                 <div class="image"><img src="assets/img/suite-romantique-vue-eiffel-paris-sexyhotelsparis-1000x675.jpg" alt="" /></div>
                 <div class="content">
-                    <h3 class="major"><a href="hotel.html">CHÂTEAU DE PRAY</a></h3>
+                    <h3 class="major"><a href="hotel.php">CHÂTEAU DE PRAY</a></h3>
                     <span>Le charme à la française</span>
                     <p>Etiam finibus pharetra purus, imperdiet sagittis mauris hendrerit vitae. In feugiat ante elementum amet arcu. Maecenas vulputate turpis faucibus, convallis ante et, bibendum ligula. Integer porttitor lacus eu diam pretium, ac purus rutrum.</p>
                 </div>

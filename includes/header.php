@@ -1,7 +1,7 @@
 <body>
         <!-- Header -->
         <header id="header">
-            <h1><a href="index.html">Tobook<span>.club</span></a></h1>
+            <h1><a href="index.php">Tobook<span>.club</span></a></h1>
             <span style="margin-left: 25%; float:left; font-size:90%; font-weight:bold;">
                 <span class="langdevise">Langue</span>
                 <span id="langue">FR</span>
@@ -145,3 +145,16 @@
             <a href="#"><span>Se connecter</span></a>
             <a href="#menu"><span>Menu</span></a>
         </header>
+             <!-- Menu -->
+        <nav id="menu">
+            <ul class="links">
+                <li><a href="index.php">Accueil</a></li>
+                <li><a href="resultats.php">Recherche</a></li>
+                <li><a href="page_utilisateurs.php">Mon profil</a></li>
+                <li><a href="elements.html">Contact</a></li>
+            </ul>
+            <ul class="actions vertical">
+                <li><a href="#" class="button fit special">S'inscrire</a></li>
+                <li><a href="#" class="button fit">Se connecter</a></li>
+            </ul>
+        </nav>

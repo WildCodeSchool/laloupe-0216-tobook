@@ -18,20 +18,6 @@ License: pixelarity.com/license
     </head>
     <?php include 'includes/header.php'; ?>
 
-        <!-- Menu -->
-        <nav id="menu">
-            <ul class="links">
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="resultats.html">Recherche</a></li>
-                <li><a href="page_utilisateurs.html">Mon profil</a></li>
-                <li><a href="elements.html">Contact</a></li>
-            </ul>
-            <ul class="actions vertical">
-                <li><a href="#" class="button fit special">S'inscrire</a></li>
-                <li><a href="#" class="button fit">Se connecter</a></li>
-            </ul>
-        </nav>
-
         <!-- Banner -->
         <section id="banner">
             <div class="inner">
