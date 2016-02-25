@@ -220,9 +220,17 @@ body {
 }
 
 .\36 u, .\36 u\24 {
-    width: 50%;
+    /*width: 50%;/*******ninon*********/
     clear: none;
     margin-left: 0;
+}
+
+.\36 u {/*******ninon********/
+    width: 65%;
+}
+
+.\36 u\24 {/*******ninon********/
+    width: 35%;
 }
 
 .\35 u, .\35 u\24 {
@@ -232,7 +240,8 @@ body {
 }
 
 .\34 u, .\34 u\24 {
-    width: 33.3333333333%;
+    /*width: 33.3333333333%;/******ninon********/
+    width: 20%;/********ninon*********/
     clear: none;
     margin-left: 0;
     display: inline;
@@ -1823,7 +1832,8 @@ button,
 .button {
     background-color: transparent;
     border-color: rgba(144, 144, 144, 0.3);
-    color: #444 !important;
+    /*color: #444 !important;/*******ninon********/
+    color: rgb(102,179,47) /*!important;/*******ninon********/
 }
 
 input[type="submit"]:hover,
@@ -2069,10 +2079,12 @@ input[type="password"],
 input[type="email"],
 select,
 textarea {
-    /*background: rgba(144, 144, 144, 0.6); * Modification de l'opacité *
-    border-color: rgba(144, 144, 144, 0.3);*********ninon************/
-    background: rgba(84, 86, 105, 0.5); /*******ninon*********/
-    border-color: rgba(84, 86, 105, 0.2);/*********ninon************/
+    /*background: rgba(144, 144, 144, 0.6); /* Modification de l'opacité */
+    /*border-color: rgba(144, 144, 144, 0.3); /*********ninon************/
+    /*background: rgba(84, 86, 105, 0.5); /******ninon*********/
+    background: rgba(255, 255, 255, 1); /* Modification Thomas 22/02/2016 | 13h03 */
+    border-color: rgba(84, 86, 105, 0.2); /*********ninon************/
+
 }
 
 input[type="text"]:focus,
@@ -2087,7 +2099,7 @@ textarea:focus {
 }
 
 .select-wrapper:before {
-    /*color: rgba(102, 179, 47, 1);******ninon********/
+    color: rgba(102, 179, 47, 1); /******ninon********/
 }
 
 input[type="checkbox"] + label,
@@ -2957,7 +2969,8 @@ body {
         padding-right: 1em;
     }
 
-    #header a span {
+    #header a span,
+    #header a img {
         /*visibility: hidden;*******ninon*******/
         display: none;/*******ninon********/
     }
@@ -3289,7 +3302,7 @@ License: pixelarity.com/license
 }
 
 #banner input, #banner select, #banner textarea {
-    color: #;
+    color: rgb(84,86,105);/*******ninon*********/
     /*width: 50%;*/
     margin:auto;
 }
@@ -3364,7 +3377,8 @@ License: pixelarity.com/license
 #banner .button.special {
     border: none;
     /*background-color: #76C8B7;********ninon*********/
-    background-color: rgb(102,179,47);/********ninon*********/
+    /*background-color: rgb(102,179,47);/********ninon*********/
+    background-color: rgba(84, 86, 105, 1);/******ninon*********/
     color: #ffffff !important;
 }
 
@@ -3374,7 +3388,8 @@ License: pixelarity.com/license
 #banner button.special:hover,
 #banner .button.special:hover {
     /*background-color: #88cfc1;*********ninon***********/
-    background-color: rgb(84,86,105);/********ninon********/
+    /*background-color: rgb(84,86,105);/********ninon********/
+    background-color: rgba(84, 86, 105, 0.6);/******ninon*********/
 }
 
 #banner input[type="submit"].special:active,
@@ -3499,7 +3514,7 @@ body.is-loading #banner:after {
 }
 
 #banner img{
-    width: 15%;
+    width: 20%;
 }
 
 
@@ -3603,7 +3618,7 @@ opacity: 1;
     }
 
     #banner img {
-        width: 25%;
+        width: 30%; /********ninon*********/
     }
 
     #barre_recherche {
@@ -4663,8 +4678,13 @@ display: inline;
     text-decoration: underline;
 }
 
+.button.button_liste_hotel {
+    color: rgb(102,179,47) ;
+}
 
-
+.button.button_liste_hotel:hover {
+    border-color: rgba(144, 144, 144, 0);
+}
 
 /********jo**********/
 #map {
@@ -4719,15 +4739,39 @@ display: inline;
 
 
 /********ninon**********/
+
 table tbody tr:first-child {
     background-color: rgba(102, 179, 47, 0.5);
     font-weight: bold;
 }
 
-table td:nth-child(2), 
-table th:nth-child(2) {
+table td:nth-child(n+2), 
+table th:nth-child(n+2) {
     text-align: right;
 }
+
+table td:nth-child(2), 
+table th:nth-child(2) {
+    font-size: 70%;
+}
+
+table td:not(.not),
+table th:not(.not) {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+table td:first-child,
+table th:first-child {
+    padding-right: 0;
+}
+
+table td:last-child,
+table th:last-child {
+    padding-left: 0;
+}
+
+
 
 .colorvert {
     color: rgba(102, 179, 47, 1);
@@ -4757,12 +4801,25 @@ form li.chercheblock {
     display: block;
     padding-bottom: 2em;
 }
+
 header#topcherche {
     padding-bottom: 0em;
 }
+
+header#fildarian {
+    background-image: none;
+    padding: 1em 0 1em 0;
+    text-align: left;
+}
+
+header#fildarian h4{
+    margin: auto;
+}
+
 .width50 {
     width: 50%;
 }
+
 .width30 {
     width: 30%;
 }
@@ -4786,6 +4843,21 @@ header#topcherche {
 .tri {
     background: rgba(255, 255, 255, 1);
 }
+
+.content span {
+    height: 78px;
+}
+
+.content span img {
+    height: inherit;
+    margin: -2em 0 1em 0;
+}
+
+.textalignjustif {
+    text-align: justify;
+}
+
+
 /********fin ninon**********/
 
 
