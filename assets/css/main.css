@@ -4365,7 +4365,8 @@ License: pixelarity.com/license
 #banner input[type="button"].special:hover,
 #banner button.special:hover,
 #banner .button.special:hover {
-    background-color: #88cfc1;
+    /*background-color: #88cfc1;*/
+    background-color: rgb(84, 86, 105);
 }
 
 #banner input[type="submit"].special:active,
@@ -5011,7 +5012,7 @@ h5 {
 
 .button:hover {
     background-color: rgb(63, 92, 99);
-    border: none;
+    /*border: none;*/
 }
 
 .button.boutton_liste_hotel {
